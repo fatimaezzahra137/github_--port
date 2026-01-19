@@ -214,7 +214,8 @@
     <div class="projects">
         <div class="project-card">
           <h3>Diagnostic SVM</h3>
-  <img src="images/diagnostic-svm.png" alt="Screenshot Diagnostic SVM" class="project-img">
+      <img src="images/diagnostic-svm-1.png.png" alt="Screenshot 1">
+      <img src="images/diagnostic-svm-2.png.png" alt="Screenshot 2">
   <p><strong>Problème :</strong> Comment prédire le départ des clients ?</p>
   <p><strong>Outils :</strong> Python, Random Forest, SQL.</p>
   <p><strong>Résultat :</strong> Modèle prédictif avec une précision de 85%.</p>
@@ -228,20 +229,29 @@
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   padding: 30px;
-  max-width: 600px; /* agrandit le cadre */
+  max-width: 700px;
   margin: 30px auto;
   text-align: center;
 }
 
-.project-img {
+.project-img,
+.project-images img {
   width: 100%;
-  max-width: 500px; /* agrandit la photo */
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   object-fit: cover;
 }
+
+.project-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 
 
 </style> 
